@@ -1,0 +1,9 @@
+A=float(input("enter the mark of A:"))
+B=float(input("enter the mark of B:"))
+C=float(input("enter the mark of C:"))
+D=float(input("enter the mark of D:"))
+E=float(input("enter the mark of E:"))
+total=A+B+C+D+E
+print("Total=",total)
+percentage=(total/50)*100
+print("Percentage=",percentage)
