@@ -14,4 +14,4 @@ for i in range(lower, upper + 1):
     j = int(i ** 0.5)
     if j * j == i and i % 2 == 0:
         c.append(i)
-        print(c)
+ print(c)
