@@ -1,5 +1,6 @@
 
-number_of_rows = 5
+
+number_of_rows = int(input("enter the number"))
 
 for i in range(1, number_of_rows + 1):
 
