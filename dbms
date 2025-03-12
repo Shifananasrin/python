@@ -1,0 +1,9 @@
+3.select books.title,books.author from books left outer join bookissues on
+books.bookid =bookissues.bookid where bookissues.bookid is NULL;
+
+ouput:
++--------+--------+
+| title  | author |
++--------+--------+
+| python | febin  |
++--------+--------+
